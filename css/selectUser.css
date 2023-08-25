@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  justify-content: center;
+  align-content: center;
+  background-color: black;
+}
+body {
+  height: fit-content;
+}
+main {
+  width: 70%;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+main .watch {
+  text-align: center;
+}
+main div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
+  margin-left: 40%;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+main div section h5 {
+  color: white;
+}
+h5 {
+  padding-top: 1rem;
+  text-align: center;
+}
+img {
+  width: 8rem;
+}
+h3 {
+  color: gray;
+  border: 2px solid gray;
+  padding: 8px;
+  cursor: pointer;
+}

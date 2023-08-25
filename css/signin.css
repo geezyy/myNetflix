@@ -1,0 +1,344 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+body {
+  background-color: #000000;
+  height: 100vh;
+  margin: auto;
+}
+.mainpage{
+  height: 33rem;
+}
+img {
+  width: 7rem;
+}
+.topsection{
+  display: grid;
+  margin: 0 1.2rem;
+}
+#text {
+  color: white;
+  font-weight: 500;
+  font-size: 2rem;
+}
+.input{
+  display: grid;
+  grid-row: 1fr 1fr;
+  gap: 1.2rem;
+  margin-top: 1.5rem;
+}
+.input-space{
+  padding-left: 1.5rem;
+  height: 3rem;
+ max-width:calc(100%-5rem) ;
+  border-radius: 0.3rem;
+  background-color: rgba(128, 128, 128, 0.432);
+  text-align: start;
+  font-size: 1rem;
+  font-weight: 400;
+} 
+.submit {
+  margin-top: 1.7rem;
+    height: 3rem;
+ max-width:calc(100%-4rem) ;
+  border-radius: 0.3rem;
+  background-color: rgb(226, 30, 30);
+  font-size: 1rem;
+  border: none;
+  text-align: center;
+  justify-items: center;
+  color: white;
+}
+.bottom-text{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.remember{
+display: flex;
+justify-content: space-between;
+color: rgba(255, 255, 255, 0.582);
+margin-top: .5rem; 
+}
+#help{
+  font-size: .9rem;
+}
+.new {
+  margin-top: 1rem;
+  display: flex;
+}
+#newto {
+  color: rgba(255, 255, 255, 0.582);
+  font-weight: 250;
+  font-size: 1rem;
+}
+#signup {
+  font-weight: 700;
+  color: white;
+}
+.protected {
+  margin-top: .3rem;
+   color: rgba(255, 255, 255, 0.582);
+  font-size: .85rem;
+  font-weight: 200;
+}
+.linedivider{
+  border: 1px solid rgba(104, 102, 102, 0.404);
+  width: 100%;
+}
+
+.mainfooter {
+  margin: 0 1.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 1rem;
+  list-style: none;
+}
+.question {
+  margin: 1.5rem 1.2rem;
+}
+.atag {
+  color: rgba(255, 255, 255, 0.582);
+  font-size: 1rem;
+  font-weight: 200;
+}
+@media only screen and (min-width:501px){
+  * {
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+      sans-serif;
+  }
+  body {
+    background-color: #000000;
+    height: 100vh;
+    margin: auto;
+  }
+  .mainpage{
+    height: 33rem;
+  }
+  img {
+    margin-top: -1rem;
+    width: 12rem;
+  }
+  .topsection{
+    display: grid;
+    margin: 0 1.5rem;
+  }
+  #text {
+    color: white;
+    font-weight: 600;
+    font-size: 2.2rem;
+  }
+  .input{
+    display: grid;
+    grid-row: 1fr 1fr;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+  }
+  .input-space{
+    padding-left: 1.5rem;
+    height: 3rem;
+   max-width:calc(100%-5rem) ;
+    border-radius: 0.3rem;
+    background-color: rgba(128, 128, 128, 0.432);
+    text-align: start;
+    font-size: 1rem;
+    font-weight: 400;
+  } 
+  .submit {
+    margin-top: 2rem;
+      height: 3rem;
+   max-width:calc(100%-4rem) ;
+    border-radius: 0.3rem;
+    background-color: rgb(226, 30, 30);
+    font-size: 1rem;
+    border: none;
+    text-align: center;
+    justify-items: center;
+    color: white;
+  }
+  .bottom-text{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .remember{
+  display: flex;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 0.582);
+  margin-top: .7rem; 
+  }
+  #help{
+    font-size: .9rem;
+  }
+  .new {
+    margin-top: 1rem;
+    display: flex;
+  }
+  #newto {
+    color: rgba(255, 255, 255, 0.582);
+    font-weight: 250;
+    font-size: 1rem;
+  }
+  #signup {
+    font-weight: 700;
+    color: white;
+  }
+  .protected {
+    margin-top: .5rem;
+     color: rgba(255, 255, 255, 0.582);
+    font-size: .9rem;
+  }
+  .linedivider{
+    border: 1px solid rgba(104, 102, 102, 0.404);
+    width: 100%;
+  }
+  
+  .mainfooter {
+    margin: 0 1.2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 1rem;
+    list-style: none;
+  }
+  .question {
+    margin: 1.8rem 1.2rem;
+  }
+  .atag {
+    color: rgba(255, 255, 255, 0.582);
+    font-size: .9rem;
+  }
+}
+@media only screen and (min-width: 740px){
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+body {
+  background-image: url(../images/new\ signin\ backpage.jpg);
+  background-color: rgba(0, 0, 0, 0.644);
+  background-blend-mode: soft-light;
+  background-size: auto;
+  height: 100vh;
+}
+.mainpage {
+   display: flex;
+  justify-content: center;
+}
+img {
+  margin-top: -1rem;
+  width: 12rem;
+}
+section {
+  padding-top: 5rem;
+  width: 28rem;
+  min-height: 41.5rem;
+  background-color: #020302d8;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  border-radius: .5rem;
+}
+#text {
+  margin-top: -6rem ;
+  margin-left: -10rem;
+  color: white;
+  font-weight: 500;
+  font-size: 2rem;
+}
+.input{
+  display: grid;
+  grid-row: 1fr 1fr;
+  gap: 1.2rem;
+  margin-top: -2rem;
+}
+.input-space{
+  padding-left: 1.5rem;
+  height: 3rem;
+ width:20rem ;
+  border-radius: 0.3rem;
+  background-color: rgba(128, 128, 128, 0.432);
+  text-align: start;
+  font-size: 1rem;
+  font-weight: 400;
+} 
+.submit {
+  margin-top: 2rem;
+    height: 3rem;
+  border-radius: 0.3rem;
+  background-color: #E50914;
+  font-size: 1rem;
+  border: none;
+  text-align: center;
+  justify-items: center;
+  color: white;
+}
+.bottom-text{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.remember{
+display: flex;
+justify-content: space-around;
+color: rgba(255, 255, 255, 0.582);
+margin-top: .7rem; 
+}
+#help{
+  font-size: .9rem;
+}
+.downtext{
+  margin: 0 4rem;
+}
+.new {
+  display: flex;
+}
+#newto {
+  color: rgba(255, 255, 255, 0.582);
+  font-weight: 250;
+  font-size: 1rem;
+}
+#signup {
+  font-weight: 700;
+  color: white;
+}
+.protected {
+   color: rgba(255, 255, 255, 0.582);
+  font-size: .9rem;
+}
+.linedivider{
+  display: none;
+}
+footer{
+  height: 10rem;
+  margin-top: 13rem; 
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.mainfooter {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 1rem;
+  list-style: none;
+  margin: 3rem 10rem;
+}
+.question{
+  margin: 0 10rem;
+}
+.atag {
+  color: rgba(255, 255, 255, 0.582);
+  font-size: 1rem;
+}
+} 
+
+
+
+ 
