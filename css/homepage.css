@@ -65,6 +65,11 @@ h1 {
   margin: auto;
   justify-items: center;
 }
+
+button{
+  cursor: pointer;
+}
+
 .inputbox {
   font-size: 1rem;
   background-color: rgba(0, 0, 0, 0.7);
